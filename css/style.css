@@ -1,0 +1,213 @@
+:root {
+  --main: #2C2F77; 
+  --main2: #263147;
+  --bg-waining: #FFE7C2;   
+  --main-b: #171a21;
+  --color--body--light: #515151;
+  --color--link-underline: #212121;
+  --color-waining: #B26B00;   
+} 
+
+a{
+  text-decoration: none !important; 
+}
+a:hover{
+  text-decoration: none;
+} 
+body{
+  font-family: "Inter", serif;
+  font-style: normal;
+}   
+.th{
+  font-family: "Noto Sans Thai", serif;
+  font-style: normal;
+}
+header{
+  height: 54px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.06); 
+  box-shadow: 0px -1px 0px 0px rgba(233, 234, 236, 1) inset;  
+}
+header .logo{
+  height: 36px;
+}
+header > div{ 
+  padding: 11px 16px;
+}
+header > div:nth-child(2){ 
+  box-shadow: 1px 0px 0px 0px rgba(233, 234, 236, 1) inset; 
+}
+header .dropdown-menu{
+  margin-top: 10px !important;
+  border-radius: 0px;
+}
+header .dropdown-toggle{ 
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 160px;
+  font-size: 14px;
+  color: var(--main2);
+}
+header .dropdown-toggle img{ 
+  height: 32px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 10px;
+} 
+header .dropdown-menu a{  
+  font-size: 14px;
+  color: var(--main2);
+}
+main{
+  background-color: #f7f7f8;
+  min-height: calc(100vh - 54px);
+  padding: 32px;
+}
+.menu-top{ 
+  height: 58px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.menu-top .menu{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #D3D6DA;
+  border-radius: 4px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-top .menu img{ 
+  height: 28px; 
+}
+.menu-top .print{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #D3D6DA;
+  border-radius: 4px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-top .print img{ 
+  height: 28px; 
+}
+.menu-top .navm{
+  text-align: start;
+  width: 100%;
+}
+.menu-top .navm a{
+  color: #7D8391;
+  font-size: 14px;
+  font-weight: 500;
+}
+.menu-top .navm a.active{
+  color: black; 
+}
+.menu-top .navm h3{
+  color: var(--main2);
+  font-size: 24px;
+  font-weight: 700;
+}
+.company-info{
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #EEF0F1;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.company-info{
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #EEF0F1;
+  display: flex;
+  max-width: 100%;
+  position: relative;
+  padding-right: 208px;
+}
+.company-info .lb{ 
+  margin-left: 32px;
+  position: absolute;
+  right: 0;
+} 
+.company-info .lb h4{ 
+  border-radius: 6px 6px 0px 0px;
+  background-color: #2C2F77;
+  color: #fff;
+  width: 140px;
+  height: 32px;
+  text-align: center;
+  font-size: 16px; 
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-top: 6px;
+}
+.company-info .lb h5{ 
+  border-radius: 0px 0px 8px 8px;
+  background-color: #FFEBCC;
+  color: var(--color-waining) !important;
+  width: 140px;
+  height: 32px;
+  text-align: center;
+  font-size: 14px; 
+  font-weight: 600;
+  padding-top: 6px;
+}
+.difo{ 
+  overflow: hidden;
+}
+.company-info .info{ 
+  font-family: "Noto Sans Thai UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+  text-decoration-line: underline; 
+  white-space: nowrap;
+}
+.company-info h6{
+  color: #7D8391;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+transition: .33s all ease-out;  
+  font-family: "Noto Sans Thai", serif;
+######################################################################################################
+###################################################################################################### 
+*/ 
+
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }  
+}
+@media only screen and (min-width: 1025px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }     
+}     
