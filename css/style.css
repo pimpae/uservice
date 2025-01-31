@@ -208,6 +208,20 @@ main{
   margin-bottom: 4px;
   height: 44px;
 }
+.text-box-info .pe-1{
+  padding-right: 2px !important;
+}
+.text-box-info .ps-1{
+  padding-left: 2px !important;
+}
+.box-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main2); 
+  font-size: 16px;
+  font-weight: 500;
+}
 
 
 
