@@ -1,5 +1,6 @@
 :root {
   --main: #2C2F77; 
+  --main-active: #1C1D4A; 
   --main2: #263147;
   --bg-waining: #FFE7C2;   
   --main-b: #171a21;
@@ -231,6 +232,12 @@ main{
   font-size: 16px;
   font-weight: 500;
 }
+.gapx .box-info .through{
+  text-decoration: line-through !important;
+}
+.gapx .box-info span img{
+  margin-right: 10px;
+}
 .gapx .box-danger{
   display: flex;
   align-items: center;
@@ -239,28 +246,6 @@ main{
   font-size: 16px;
   font-weight: 500;
   background-color: #FAD1D6;
-}
-.btn{
-  background-color: #fff;
-  border-radius: 4px;
-  height: 40px;
-  max-width: 200px;
-  font-family: "Noto Sans Thai", serif;
-  font-weight: 500;
-  color: var(--color-text);
-  border: 1px solid #D3D6DA;
-}
-.btn:hover{
-  background-color: #fff; 
-  color: var(--color-text);
-  border: 1px solid #D3D6DA;
-}
-.span-warning{  
-  background-color: var(--bg-waining);
-  border-radius: 8px;
-  padding: 5px;
-  color: #B26B00;
-  font-family: "Noto Sans Thai", serif;
 }
 h2{
   margin-top: 44px;
@@ -271,6 +256,57 @@ h2{
   color: var(--main2);
   font-weight: bold;
 }
+.tablem{
+  margin-top: 24px; 
+}
+.tablem thead th{
+  background-color: #F1F3F3;
+  padding: 13px;
+  border-bottom: 1px solid #fff;
+}
+.tablem tbody td{
+  background-color: #EEF0F1;
+  padding: 13px ;
+  border-bottom: 1px solid #fff;
+}
+.tablem tbody tr:nth-child(even) td{
+  background-color: #F1F3F3; 
+}
+.tablem tbody tr td:last-child{
+  padding: 0px !important;
+  width: 48px;
+}
+.tablem thead tr th:nth-child(2){
+  text-align: center;
+}
+.tablem thead tr th:nth-child(3){
+  text-align: center;
+}
+.tablem tbody tr td:nth-child(1){
+  color: var(--main2);
+  font-weight: 500;
+  font-size: 16px;
+}
+.tablem tbody tr td:nth-child(2){
+  text-align: center;
+}
+.tablem tbody tr td:nth-child(3){
+  text-align: center;
+}
+.tablem .btnx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  background-color: var(--main);
+  transition: .33s all ease-out;  
+}
+.tablem .btnx:hover{
+  background-color: var(--main-active); 
+}
+
+
 
 
 
@@ -285,6 +321,75 @@ transition: .33s all ease-out;
 ######################################################################################################
 ###################################################################################################### 
 */ 
+
+.btn-default{
+  background-color: #fff;
+  border-radius: 4px;
+  height: 40px; 
+  font-family: "Noto Sans Thai", serif;
+  font-weight: 500;
+  color: var(--color-text);
+  border: 1px solid #D3D6DA;
+}
+.btn-default:hover{
+  background-color: #fff; 
+  color: var(--main);
+  border: 1px solid var(--main);
+}
+.btn-default:active{
+  background-color: #fff !important; 
+  color: var(--main);
+  border: 1px solid var(--main);
+}
+.btn-disabled{
+  background-color: #EEF0F1 !important; 
+  color: #7D8391;
+  border: 1px solid #7D8391;
+}
+/* .main-control{
+  margin-top: 24px;
+}
+.main-control .menu{
+  padding: 10px;
+}
+.main-control .menu:nth-child(odd){
+  background-color: #7D8391;
+} 
+.main-control .menu:nth-child(even){
+  background-color: #EEF0F1;
+} */
+
+.span-warning{  
+  background-color: var(--bg-waining);
+  border-radius: 8px;
+  padding: 5px 18px;
+  color: #B26B00;
+  font-size: 16px;
+  font-family: "Noto Sans Thai", serif;
+}
+.span-default{  
+  background-color: #E3E5E8;
+  border-radius: 8px;
+  padding: 5px 24px;
+  color: #7D8391;
+  font-size: 16px;
+  font-family: "Noto Sans Thai", serif;
+}
+.span-success{  
+  background-color: #D7EADF;
+  border-radius: 8px;
+  padding: 5px 18px;
+  color: #009C00;
+  font-size: 16px;
+  font-family: "Noto Sans Thai", serif;
+}
+.span-success img{  
+  width: 12px;
+}
+.span-warning img{  
+  width: 12px;
+}
+
 
 @media only screen and (max-width: 1024px) { /* MOBILE */
   .mb-x{
