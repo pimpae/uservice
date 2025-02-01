@@ -64,7 +64,7 @@
 				</div>
 			</div> 
 			<div class="col-md-4">
-				<label for="validationCustom04" class="form-label">State</label>
+				<label for="validationCustom04" class="form-label">Date</label>
 				<select class="form-select" id="validationCustom04" required>
 					<option selected disabled value="">Choose...</option>
 					<option>...</option>
@@ -103,6 +103,13 @@
 					<label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
 				</div>
 			</div>
+			<div class="col-md-3 position-relative">
+				<label for="id11" class="form-label">Incoming  Date : <img src="images/Calendar2.png" class="icon-img" alt="Calendar"></label>
+				<input type="text" class="form-control" id="id11"  required>  
+				<div class="invalid-feedback">
+					Error message informing me of a problem
+				</div>
+			</div>  
 			<div class="col-12">
 				<button class="btn btn-primary" type="submit">Submit form</button>
 			</div>
@@ -114,15 +121,12 @@
 	<script src="js/popper.min.js" ></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	
-	<script>
-		// Example starter JavaScript for disabling form submissions if there are invalid fields
+	<script> 
 		(() => {
 		'use strict'
-
-		// Fetch all the forms we want to apply custom Bootstrap validation styles to
+ 
 		const forms = document.querySelectorAll('.needs-validation')
-
-		// Loop over them and prevent submission
+ 
 		Array.from(forms).forEach(form => {
 			form.addEventListener('submit', event => {
 			if (!form.checkValidity()) {

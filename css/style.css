@@ -8,6 +8,7 @@
   --color--link-underline: #212121;
   --color-waining: #B26B00;   
   --color-text: #515A6C;
+  --main-text: #7D8391;
   --color-danger: #E5172F;
 } 
 
@@ -249,8 +250,7 @@ main{
 }
 h2{
   margin-top: 44px;
-  margin-bottom: 24px;
-  text-align: center;
+  margin-bottom: 24px; 
   font-family: "Noto Sans Thai", serif;
   font-size: 24px;
   color: var(--main2);
@@ -404,7 +404,30 @@ input[type='radio']:checked::after{
 textarea.form-control{
   min-height: 80px;
 }
- 
+.pgn{ 
+  margin-top: 44px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--main-text);
+}
+.pgn strong{ 
+  color: #E5172F;
+} 
+.icon-img{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+  top: 45px;
+}
+.form-group{
+  background-color: white;
+  border-radius: 8px; 
+  padding: 16px;
+}
+
+
 /* 
 transition: .33s all ease-out;  
   font-family: "Noto Sans Thai", serif;
@@ -412,12 +435,18 @@ transition: .33s all ease-out;
 ###################################################################################################### 
 */ 
 
-.btn-default{
-  background-color: #fff;
+.btn{ 
   border-radius: 4px;
-  height: 40px; 
-  font-family: "Noto Sans Thai", serif;
-  font-weight: 500;
+  height: 40px;  
+  font-weight: 500; 
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.btn img{ 
+  margin-right: 8px;
+}
+.btn-default{
+  background-color: #fff; 
   color: var(--color-text);
   border: 1px solid #D3D6DA;
 }
@@ -436,6 +465,28 @@ transition: .33s all ease-out;
   color: #7D8391;
   border: 1px solid #7D8391;
 }
+.btn-primary{
+  background-color: var(--main); 
+  color: #fff;
+  border: 1px solid var(--main); 
+}
+.btn-primary:hover{
+  background-color: var(--main-active) !important; 
+  color: #fff;
+  border: 1px solid var(--main-active) !important;
+}
+.btn-default:active{
+  background-color: var(--main-active) !important; 
+  color: #fff;
+  border: 1px solid var(--main-active) !important;
+} 
+.btn-default:focus{
+  background-color: var(--main-active) !important; 
+  color: #fff;
+  border: 1px solid var(--main-active) !important;
+}
+
+
 /* .main-control{
   margin-top: 24px;
 }
