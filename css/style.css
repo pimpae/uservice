@@ -286,6 +286,7 @@ h2{
   color: var(--main2);
   font-weight: 500;
   font-size: 16px;
+  white-space: nowrap;
 }
 .tablem tbody tr td:nth-child(2){
   text-align: center;
@@ -362,26 +363,26 @@ transition: .33s all ease-out;
 .span-warning{  
   background-color: var(--bg-waining);
   border-radius: 8px;
-  padding: 5px 18px;
+  padding: 5px 8px;
   color: #B26B00;
   font-size: 16px;
-  font-family: "Noto Sans Thai", serif;
+  font-family: "Noto Sans Thai", serif;white-space: nowrap; 
 }
 .span-default{  
   background-color: #E3E5E8;
   border-radius: 8px;
-  padding: 5px 24px;
+  padding: 5px 14px;
   color: #7D8391;
   font-size: 16px;
-  font-family: "Noto Sans Thai", serif;
+  font-family: "Noto Sans Thai", serif;white-space: nowrap; 
 }
 .span-success{  
   background-color: #D7EADF;
   border-radius: 8px;
-  padding: 5px 18px;
+  padding: 5px 8px;
   color: #009C00;
   font-size: 16px;
-  font-family: "Noto Sans Thai", serif;
+  font-family: "Noto Sans Thai", serif;white-space: nowrap; 
 }
 .span-success img{  
   width: 12px;
