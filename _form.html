@@ -42,249 +42,99 @@
 	</header>
 	
 	<main>
-		<div class="menu-top">
-			<a href="#">
-				<div class="menu">
-					<img src="images/Menu.svg" alt="menu">
-			   </div>
-			</a>
-			<div class="navm">
-				<a href="#">Home</a>
-				<a href="#">Tag List</a>
-				<a href="#" class="active">Report</a>
-				<h3>SID: SVRY2411-0519 </h3>
-			</div>
-			<a href="#">
-				<div class="print">
-					<img src="images/Print.svg" alt="print"> 
-			   </div>
-			</a>
-		</div>
-
-		<div class="company-info">
-			<div>
-				<h6><img src="images/Warehouse.svg" alt=""> PTT GC12</h6>
-				<div class="difo">
-					<a href="#" class="info">บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน) xxxxxxxxxxxxxxxxxxxx aaaaaaaaaaa xxxxxxxxxxxxxxxxxxxx aaaaaaaaaaa</a> 
+		<form class="row g-3 needs-validation" novalidate>
+			<div class="col-md-4">
+				<label for="validationCustom01" class="form-label">First name</label>
+				<input type="text" class="form-control" id="validationCustom01"  required>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+				<div class="invalid-feedback">
+					Please select a valid state.
+				</div>
+			</div> 
+			<div class="col-md-4">
+				<label for="validationCustom01" class="form-label">First name <strong>*</strong> <span>xxx</span></label> 
+				<textarea class="form-control" required></textarea>
+				<div class="valid-feedback">
+					Looks good!
+				</div>
+				<div class="invalid-feedback">
+					Please select a valid state.
+				</div>
+			</div> 
+			<div class="col-md-4">
+				<label for="validationCustom04" class="form-label">State</label>
+				<select class="form-select" id="validationCustom04" required>
+					<option selected disabled value="">Choose...</option>
+					<option>...</option>
+					<option>...</option>
+					<option>...</option>
+				</select>
+				<div class="invalid-feedback">
+					Please select a valid state.
+				</div>
+			</div> 
+			<div class="col-md-4">
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+					<label class="form-check-label" for="invalidCheck">
+					Agree to terms and conditions
+					</label>
+					<div class="invalid-feedback">
+						You must agree before submitting.
+					</div>
 				</div>
 			</div>
-			<div class="lb">
-				<h4>SQRY2411-0400</h4>
-				<h5><img src="images/Accesstime.svg" alt=""> WORKING</h5>
+			<div class="col-md-4">
+				<div class="form-check">
+					<input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+					<label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+				</div>
+				<div class="form-check mb-3">
+					<input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+					<label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+					<div class="invalid-feedback">More example invalid feedback text</div>
+				</div>
 			</div>
-		</div> 
-		<div class="gapx g3">
-			<div class="box-info">
-				<span>Job Type:</span>
-				<span>CLIAM</span>
+			<div class="col-lg-4">
+				<div class="form-check form-switch">
+					<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" required>
+					<label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+				</div>
 			</div>
-			<div class="box-info">
-				<span>Tag No:</span>
-				<span>WCCP-1,<span class="th"> คุณโชคชัย</span></span>
+			<div class="col-12">
+				<button class="btn btn-primary" type="submit">Submit form</button>
 			</div>
-			<div class="box-info justify-content-center">
-				<button type="button"   class="btn btn-default th">ดูรายละเอียดงานฉบับเต็ม</button>
-			</div>
-		</div>
-		<div class="gapx g4x">
-			<div class="box-danger">
-				! URGENT
-			</div> 
-			<div class="box-info">
-				<span class="th">วันที่รับ:</span>
-				<span>28/11/67</span>
-			</div>
-			<div class="box-info">
-				<span class="th">วันที่อนุมัติ :</span>
-				<span class="span-warning"><img src="images/Access-time.png" alt=""> รออนุมัติ</span>
-			</div> 
-			<div class="box-info">
-				<span class="th">กำหนดส่ง: :</span>
-				<span>30/11/67</span>
-			</div> 
-		</div>
-		<div class="col text-center">
-			<h2>ใบสั่งงาน</h2>
-		</div>
-		<div class="gapx g3"> 
-			<div class="box-info">
-				<span><img src="images/Check.png" alt=""> Stator:</span> 
-				<span>xxxx</span> 
-			</div> 
-			<div class="box-info">
-				<span><img src="images/Check.png" alt=""> Rotor:</span> 
-				<span>xxxx</span> 
-			</div> 
-			<div class="box-info">
-				<span><img src="images/Check.png" alt=""> Rotor Balance:</span> 
-				<span>xxxx</span> 
-			</div> 
-			<div class="box-info">
-				<span class="th through"><img src="images/Cancel.png" alt=""> ล้าง-อบ:</span>  
-			</div> 
-			<div class="box-info">
-				<span class="th through"><img src="images/Cancel.png" alt=""> ทำสี:</span> 
-				<span>xxxx</span> 
-			</div> 
-			<div class="box-info">
-				<span class="through"><img src="images/Cancel.png" alt=""> Stator:</span> 
-				<span>xxxx</span> 
-			</div> 
-		</div>
-
-		<div class="table-responsive">
-			<table class="table tablem">
-				<thead>
-					<tr class="th">
-						<th>รายการงาน</th>
-						<th>นาที</th>
-						<th>สถานะ</th>
-						<th>&nbsp;</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1. TEST REPORT FOR SQUIRREL CAGE MOTOR</td>
-						<td>4 </td>
-						<td><span class="span-success"><img src="images/Check.png" alt=""> อนุมัติแล้ว</span></td>
-						<td><a href="work1.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>2. MOTOR NAMEPLATE</td>
-						<td>4 </td>
-						<td><span class="span-success"><img src="images/Check.png" alt=""> อนุมัติแล้ว</span></td>
-						<td><a href="work2.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>3. STATIC TEST</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work3.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>4. EQUIPMENT TEST</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work4.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>5. DYNAMIC TEST</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work5.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>6. HOUSING / SHAFT</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work6.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>7. REQUISITION ( <span class="th">ใบเบิกย่อย</span> )</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work7.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>8. BALANCE</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work8.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>9. ELECTRICAL SERVICES</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work9.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>10. INSTRUMENTS</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work10.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>11. COILBRAKE TEST</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work11.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>12. APPROVAL ( <span class="th">ผู้ทดสอบ / ตรวจสอบ</span> )</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work12.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>13. MECHANICAL SERVICES (REPAIR DETAIL / <span class="th">รายละเอียดการซ่อม</span> )</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work13.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>14. MECHANICAL INSPECTION DATA</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work14.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>15. LASER ALIGNMENT</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work15.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>16. VIBRATION AFTER INSTALLED</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work16.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>17. CORE LOSS AND HOT SPOT TESTING</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work17.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>18. REWIND</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work18.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>19. MACHINE</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work19.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>20. PART DATA</td>
-						<td>4 </td>
-						<td><span class="span-default">ดำเนินการ</span></td>
-						<td><a href="work20.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>21. <span class="th">เอกสารแนบอื่น ๆ (ภาพภ่าย)</span></td>
-						<td>4 </td>
-						<td><span class="span-warning"><img src="images/Access-time.png" alt=""> รออนุมัติ</span></td>
-						<td><a href="work21.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-					<tr>
-						<td>22. <span class="th">จัดการภาพถ่าย</span></td>
-						<td>4 </td>
-						<td><span class="span-warning"><img src="images/Access-time.png" alt=""> รออนุมัติ</span></td>
-						<td><a href="work22.html" class="btnx"><img src="images/next.png" alt=""></a></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+		</form>
 	</main>
 	  
 
 	<script src="js/jquery.min.js"></script> 
 	<script src="js/popper.min.js" ></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
- 
- 
+	
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(() => {
+		'use strict'
+
+		// Fetch all the forms we want to apply custom Bootstrap validation styles to
+		const forms = document.querySelectorAll('.needs-validation')
+
+		// Loop over them and prevent submission
+		Array.from(forms).forEach(form => {
+			form.addEventListener('submit', event => {
+			if (!form.checkValidity()) {
+				event.preventDefault()
+				event.stopPropagation()
+			}
+
+			form.classList.add('was-validated')
+			}, false)
+		})
+		})()
+	</script>
+	
 </body>
 </html>

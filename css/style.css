@@ -306,15 +306,104 @@ h2{
 .tablem .btnx:hover{
   background-color: var(--main-active); 
 }
-
-
-
-
-
-
-
-
-
+.form-label{
+  color: var(--main2);
+  font-size: 14px;
+  font-weight: 500;
+} 
+.form-label span{
+  color: #7D8391;
+  font-size: 14px;
+  font-weight: 500;
+} 
+.form-label strong{
+  color: #E5172F;
+  font-size: 14px;
+  font-weight: 500;
+} 
+input[type='text'] {
+  border: 1px solid #D3D6DA;
+  height: 48px;
+  color: #7D8391;
+  font-size: 16px;
+}
+input[type='text']:focus{
+  border: 2px solid var(--main2); 
+  color: var(--main2); 
+  outline: unset !important;
+  box-shadow: none !important
+}
+.form-select{
+  border: 1px solid #D3D6DA;
+  height: 48px;
+  color: #7D8391;
+  font-size: 16px;
+}
+.form-select:focus{
+  border: 2px solid var(--main2); 
+  color: var(--main2); 
+  outline: unset !important;
+  box-shadow: none !important
+}
+input[type='checkbox'] {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.form-check-label{
+  line-height: 30px;
+  color: var(--main2); 
+}
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label {
+  color: var(--main2); 
+}
+.form-check-input.is-valid, .was-validated .form-check-input:valid {
+  border-color: #D3D6DA;
+  outline: unset !important;
+  box-shadow: none !important
+}
+.form-check-input.is-valid:checked, .was-validated .form-check-input:valid:checked {
+  background-color: #fff;
+}
+.form-check-input:checked {
+  background-color: #fff;
+  border-color: #D3D6DA;
+  outline: unset !important;
+  box-shadow: none !important
+}
+.form-check-input:checked[type=checkbox] {
+  --bs-form-check-bg-image: url(../images/_check.png);
+}
+input[type='radio'] {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  position: relative;
+} 
+input[type='radio']:checked::after{
+  position: absolute;
+  content: "";
+  background: var(--main); 
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  display: flex;
+  left: 5px; 
+  top: 5px;
+} 
+.form-switch .form-check-input{
+  width: 48px;
+  border: 1px solid #D3D6DA;
+}
+.form-switch .form-check-input{
+  --bs-form-check-bg-image: url(../images/dot.png);
+}
+.form-switch .form-check-input:checked {
+  background-color: var(--main);
+}
+textarea.form-control{
+  min-height: 80px;
+}
  
 /* 
 transition: .33s all ease-out;  
