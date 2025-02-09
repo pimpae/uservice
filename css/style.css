@@ -466,6 +466,40 @@ textarea.form-control{
   width: calc(33.333% - (2rem / 3));
   object-fit: contain;
 }
+.bg-danger{
+  background-color: #FAD1D6 !important;
+}
+.bg-success{
+  background-color: #B8E0CB !important;
+}
+.bg-info{
+  background-color: #B8D2E0 !important;
+}
+.table-data thead th{
+  color: var(--main2);
+  font-size: 16px;
+}
+.table-data tbody td{
+  background-color: #fff;
+  padding: 13px ;
+  border-bottom: 1px solid #fff;
+}
+.table-data tbody tr:nth-child(even) td{
+  background-color: #EEF0F1; 
+}
+.navtab .nav-link{
+  color: #9298A3;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.navtab .nav-link.active{
+  color: var(--main);
+  background-color: #fff;
+  border-top: 4px solid var(--main);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
 
 
 /* 
