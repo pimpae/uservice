@@ -427,6 +427,46 @@ textarea.form-control{
   padding: 16px;
 }
 
+.upload_dropZone {
+  color: #0f3c4b;
+  background-color: #F7F7F8;
+  border: 2px dashed #D3D6DA;  
+  border-radius: 8px;
+  transition:
+    outline-offset 0.2s ease-out,
+    outline-color 0.3s ease-in-out,
+    background-color 0.2s ease-out;
+}
+.upload_dropZone p{
+  color: var(--main2); 
+  font-size: 16px;
+}
+.upload_dropZone.highlight {
+  outline-offset: -4px;
+  outline-color: var(--colorPrimaryNormal, #0576bd);
+  background-color: var(--colorPrimaryEighth, #c8dadf);
+}
+.upload_svg {
+  fill: var(--colorPrimaryNormal, #0576bd);
+}
+.btn-upload {
+  color: #fff;
+  background-color: var(--main);
+}
+.btn-upload:hover{
+  color: #fff !important;
+  background-color: var(--main-active) !important;
+}
+.btn-upload:hover,
+.btn-upload:focus {
+  color: #fff;
+  background-color: var(--colorPrimaryGlare);
+}
+.upload_img {
+  width: calc(33.333% - (2rem / 3));
+  object-fit: contain;
+}
+
 
 /* 
 transition: .33s all ease-out;  

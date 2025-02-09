@@ -103,6 +103,19 @@
 					<label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
 				</div>
 			</div>
+			<div class="col-lg-4">
+				<label for="textarea1" class="form-label">Upload  <span>(Optional)</span> </label>  
+				
+				<fieldset class="upload_dropZone text-center mb-3 p-4">
+					<legend class="visually-hidden">Image uploader</legend> 
+					<p class="small my-2">Drag & Drop file here</p>
+					<input id="upload_image_background" data-post-name="image_background"   class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png, image/svg+xml" />
+					<label class="btn btn-upload mb-3" for="upload_image_background"><img src="images/upload.png" alt=""> Upload Flie</label>
+					<div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0"></div>
+				</fieldset> 
+				<label for="textarea1" class="form-label"> <span>Only .jpg, jpeg, .png files are supported. The image file size should not be larger than 10 MB.</span> </label>  
+					 
+			</div>
 			<div class="col-md-3 position-relative">
 				<label for="id11" class="form-label">Incoming  Date : <img src="images/Calendar2.png" class="icon-img" alt="Calendar"></label>
 				<input type="text" class="form-control" id="id11"  required>  

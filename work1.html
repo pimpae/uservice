@@ -297,6 +297,21 @@
 					</div>
 				</div> 
 			</div>
+			<div class="row mb-4"> 
+				<div class="col">
+					<label for="textarea1" class="form-label">Upload  <span>(Optional)</span> </label>  
+				 
+					<fieldset class="upload_dropZone text-center mb-3 p-4">
+						<legend class="visually-hidden">Image uploader</legend> 
+						<p class="small my-2">Drag & Drop file here</p>
+						<input id="upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png, image/svg+xml" />
+						<label class="btn btn-upload mb-3" for="upload_image_background"><img src="images/upload.png" alt=""> Upload Flie</label>
+						<div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0"></div>
+					</fieldset> 
+					<label for="textarea1" class="form-label"> <span>Only .jpg, jpeg, .png files are supported. The image file size should not be larger than 10 MB.</span> </label>  
+					 
+				</div> 
+			</div>
 			<div class="col-12 text-center">
 				<button class="btn btn-primary th" type="submit">บันทึก</button>
 			</div>
@@ -312,7 +327,7 @@
 	<script src="js/bootstrap-datepicker.min.js"></script>
 	<script src="js/bootstrap-datepicker.th.min.js"></script>
 	<script> 
-	
+		
                 
 		$('.date').datepicker({ 
 			language: 'th',
