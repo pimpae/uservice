@@ -288,6 +288,16 @@ h2{
   font-size: 16px;
   white-space: nowrap;
 }
+.tablem tbody tr td:nth-child(1) a{
+  color: var(--main2);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  font-family: "Noto Sans Thai", serif;
+}
+.tablem tbody tr td:nth-child(1) a:hover{
+  text-decoration: underline !important;
+}
 .tablem tbody tr td:nth-child(2){
   text-align: center;
 }
@@ -310,7 +320,12 @@ h2{
   color: var(--main2);
   font-size: 14px;
   font-weight: 500;
+  margin-top: 15px;
 } 
+.form-check{
+  margin-top: 15px;
+
+}
 .form-label span{
   color: #7D8391;
   font-size: 14px;
@@ -416,10 +431,10 @@ textarea.form-control{
 } 
 .icon-img{
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   right: 20px;
-  top: 45px;
+  top: 55px;
 }
 .form-group{
   background-color: white;
