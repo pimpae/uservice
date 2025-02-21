@@ -652,7 +652,7 @@ transition: .33s all ease-out;
     display: none !important;
   }  
   main{
-    padding-bottom: 100px;
+    padding-bottom: 70px;
   }
   .footer-save{
     position: fixed;
@@ -670,7 +670,15 @@ transition: .33s all ease-out;
     color: #7D8391;
     line-height: 40px;
   }
-  
+  .gapx .box-info { 
+    font-size: 14px !important; 
+  }
+  .gapx .box-danger { 
+    font-size: 14px !important; 
+  }
+  .tablem tbody tr td:nth-child(1) a{ 
+    font-size: 15px !important; 
+  }
 }
 @media only screen and (min-width: 1025px) { /* PC */
   .pc-x{

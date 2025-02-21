@@ -273,16 +273,16 @@
 				</div>
 			</div>
 			<div class="row"> 
-				<div class="col-md-4">
-					<div class="form-check">
+				<div class="col-md-12">
+					<div class="form-check form-check-inline">
 						<input type="radio" class="form-check-input" id="chk1" name="radio-stacked" required>
 						<label class="form-check-label" for="chk1">CW </label>
 					</div>
-					<div class="form-check">
+					<div class="form-check form-check-inline">
 						<input type="radio" class="form-check-input" id="chk2" name="radio-stacked" required>
 						<label class="form-check-label" for="chk2">CCW </label> 
 					</div> 
-					<div class="form-check">
+					<div class="form-check form-check-inline">
 						<input type="radio" class="form-check-input" id="chk3" name="radio-stacked" required>
 						<label class="form-check-label" for="chk3">N/A</label> 
 					</div> 
@@ -327,7 +327,10 @@
 	<script src="js/popper.min.js" ></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap-datepicker.min.js"></script>
-	<script src="js/bootstrap-datepicker.th.min.js"></script>
+	<script src="js/bootstrap-datepicker.th.min.js"></script> 
+
+	<script src="https://rawgit.com/jojosati/bootstrap-datepicker/master/js/bootstrap-datepicker-thai.js"></script> 
+
 	<script> 
 		
                 
@@ -338,8 +341,18 @@
 			calendarWeeks: false,
 			autoclose: true,
 			todayHighlight: true,
+			thaiyear: true, 
 			toggleActive: true
 		}); 
+
+		// $('.date').datepicker().on('show', function(e) {
+		// 	$(".datepicker-years .year").each(function() {
+		// 		let year = parseInt($(this).text());
+		// 		if (year < 2100) { // Avoid double conversion
+		// 			$(this).text(year + 543);
+		// 		}
+		// 	});
+		// });
 
 		(() => {
 		'use strict'
