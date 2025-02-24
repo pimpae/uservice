@@ -116,11 +116,11 @@
 								</div>
 								<div class="col-12">
 									<label for="" class="form-label">RUBBER COUPING</label>
-									<table class="table table-data">
+									<table class="table table-data table-h">
 										<thead>
 											<tr>
-												<th class="text-center" style="width: 80px;">Position</th> 
-												<th class="text-center">&nbsp;</th>  
+												<th class="text-center bg-danger" style="width: 80px;">Position</th> 
+												<th class="text-center bg-danger">&nbsp;</th>  
 											</tr>
 										</thead>
 										<tbody> 
@@ -320,7 +320,11 @@
 	<script src="js/bootstrap-datepicker.min.js"></script>
 	<script src="js/bootstrap-datepicker.th.min.js"></script>
 	<script> 
-	
+		
+		$(".table-h").click(function(){
+			$(this).toggleClass("hide");
+		}); 
+
                 
 		$('.date').datepicker({ 
 			language: 'th',
