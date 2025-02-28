@@ -571,7 +571,7 @@ textarea.form-control{
   background-size: 16px auto !important;
   cursor: pointer;
 }
-.table-h.hide tbody{  
+.table-h.hide + .table tbody{  
   display: none;
 }
 .table-h.hide::after{ 
