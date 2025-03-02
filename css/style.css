@@ -504,6 +504,17 @@ textarea.form-control{
 .table-data tbody tr:nth-child(even) td{
   background-color: #EEF0F1; 
 }
+.table-data.item-cen{
+  vertical-align: middle;
+}
+.table-data.item-cen tbody td{
+  background-color: #fff;
+  padding: 13px 8px;
+  border-bottom: unset !important;
+}
+.table-data.item-cen tbody tr:nth-child(even) td{
+  background-color: #fff; 
+}
 .navtab .nav-link{
   color: #9298A3;
   padding-left: 24px;
