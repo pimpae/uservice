@@ -498,7 +498,7 @@ textarea.form-control{
 }
 .table-data tbody td{
   background-color: #fff;
-  padding: 13px ;
+  padding: 13px 8px;
   border-bottom: 1px solid #fff;
 }
 .table-data tbody tr:nth-child(even) td{
