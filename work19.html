@@ -156,29 +156,28 @@
 				</div>   
 				<div class="col-md-6 col-lg-6">
 					<div class="row">
-						<div class="col-md-3 col-lg-3">
+						<div class="col-12"> 
 							<label for="id01" class="form-label">REPLACE KEY :</label>
+						</div>
+						<div class="col-md-3 col-lg-3"> 
 							<input type="text" class="form-control th" id="id01" placeholder="ขนาด" required> 
 							<div class="invalid-feedback">
 								Error message informing me of a problem
 							</div>
 						</div>    
-						<div class="col-md-3 col-lg-3">
-							<label for="id01" class="form-label">&nbsp;</label>
+						<div class="col-md-3 col-lg-3"> 
 							<input type="text" class="form-control th" id="id01" placeholder="X" required> 
 							<div class="invalid-feedback">
 								Error message informing me of a problem
 							</div>
 						</div>    
-						<div class="col-md-3 col-lg-3">
-							<label for="id01" class="form-label">&nbsp;</label>
+						<div class="col-md-3 col-lg-3"> 
 							<input type="text" class="form-control" id="id01" placeholder="X" required> 
 							<div class="invalid-feedback">
 								Error message informing me of a problem
 							</div>
 						</div>    
-						<div class="col-md-3 col-lg-3">
-							<label for="id01" class="form-label">&nbsp;</label>
+						<div class="col-md-3 col-lg-3"> 
 							<input type="text" class="form-control" id="id01" placeholder="(mm)" required> 
 							<div class="invalid-feedback">
 								Error message informing me of a problem
@@ -236,6 +235,47 @@
 				</div>    
 			</div> 
 
+			<div class="row justify-content-center">
+				<div class="col-lg-8 mt-4 mb-1">
+					<table class="table table-bordered">
+						<tr>
+							<td class="text-center th">ผู้จ่ายงาน</td>
+							<td class="text-center th">ผู้ดำเนินการซ่อม</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="id01" class="form-label th">ลงชื่อ </label>
+								<input type="text" class="form-control" id="id01"  required> 
+							</td>
+							<td>
+								<label for="id01" class="form-label th">ลงชื่อ </label>
+								<input type="text" class="form-control" id="id01"  required> 
+							</td>
+						</tr>
+						<tr>
+							<td> 
+								<div class="col col-md-12 col-lg position-relative">
+									<label for="id16" class="form-label th">วันที่ : <img src="images/Calendar2.png" class="icon-img" alt="Calendar"></label>
+									<input type="text" class="form-control date" id="id16"  required>  
+									<div class="invalid-feedback">
+										Error message informing me of a problem
+									</div>
+								</div>  
+							</td>
+							<td> 
+								<div class="col col-md-12 col-lg position-relative">
+									<label for="id16" class="form-label th">วันที่ : <img src="images/Calendar2.png" class="icon-img" alt="Calendar"></label>
+									<input type="text" class="form-control date" id="id16"  required>  
+									<div class="invalid-feedback">
+										Error message informing me of a problem
+									</div>
+								</div>  
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
 			<div class="row"> 
 				<div class="col">
 					<label for="textarea1" class="form-label">Note <span class="th">อื่น ๆ</span> </label> 
@@ -244,9 +284,7 @@
 						Please select a valid state.
 					</div>
 				</div> 
-			</div> 
-
-
+			</div>   
 			
 			<div class="row footer-save justify-content-between"> 
 				<div class="col text-start"> 
