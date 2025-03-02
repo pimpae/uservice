@@ -55,7 +55,7 @@
 				<a href="#">Home</a> <img src="images/Chevron-Right.png" alt="">
 				<a href="#">Tag List</a> <img src="images/Chevron-Right.png" alt="">
 				<a href="#" class="active">Report</a>
-				<h3 class="th">MECHANICAL SERVICES (REPAIR DETAIL)</h3>
+				<h3>MECHANICAL SERVICES (REPAIR DETAIL / <span class="th">รายละเอียดการซ่อม</span> )</h3>
 			</div>
 			<a href="#">
 				<div class="print">
@@ -75,21 +75,151 @@
 				<h4>SQRY2411-0400</h4>
 				<h5><img src="images/Accesstime.svg" alt=""> WORKING</h5>
 			</div>
-		</div>  
-
-		<div class="col">
-			<div class="row">
-				<div class="col-6">
-					<h2>Group Name</h2>
-				</div>
-				<div class="col-6 text-end">
-					<p class="pgn"><strong>*</strong> Indicates a required field</p>
+		</div>   
+		<form class="form-group needs-validation" novalidate>
+			<div class="row mb-4"> 
+				<div class="col-4 col-lg-4">
+					<label for="id15" class="form-label mb-0">
+						<h5 class="th">ตะกร้า/ลัง</h5>
+					</label>
+					<input type="text" class="form-control crate" id="id15"  required>    
+				</div>  
+				<div class="col-8 col-lg-8">
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<label for="id15" class="form-label">Team  :</label>
+							<select class="form-select" id="validationCustom04" required>
+								<option selected disabled value=""  >เลือกทีมที่ต้องการดำเนินงาน</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>  
+						<div class="col-12 col-lg-6">
+							<div class="mb-x"><br></div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" value=""  id="invalidCheck1"  >
+								<label class="form-check-label th" for="invalidCheck1">
+									ไม่มีงานซ่อม
+								</label> 
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" value=""  id="invalidCheck2"  >
+								<label class="form-check-label th" for="invalidCheck2">
+									รออนุมัติซ่อม
+								</label> 
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" value=""  id="invalidCheck3"  >
+								<label class="form-check-label th" for="invalidCheck3">
+									ส่งซ่อมแล้ว
+								</label> 
+							</div> 
+						</div> 
+						
+					</div>
 				</div>
 			</div>
-		</div>
-
-		<form class="form-group needs-validation" novalidate> 
+			<div class="row mb-4"> 
+				<div class="col">
+					<label for="textarea1" class="form-label">Upload  <span>(Optional)</span> </label>  
+				 
+					<fieldset class="upload_dropZone text-center mb-3 p-4">
+						<legend class="visually-hidden">Image uploader</legend> 
+						<p class="small my-2">Drag & Drop file here</p>
+						<input id="upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png, image/svg+xml" />
+						<label class="btn btn-upload mb-3" for="upload_image_background"><img src="images/upload.png" alt=""> Upload Flie</label>
+						<div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0"></div>
+					</fieldset> 
+					<label for="textarea1" class="form-label"> <span>Only .jpg, jpeg, .png files are supported. The image file size should not be larger than 10 MB.</span> </label>  
+					 
+				</div> 
+			</div>
 			 
+			<div class="row mb-4"> 
+				<div class="col">
+					<table class="table table-data"> 
+						<tbody> 
+							<tr>
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 10%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+						</tbody>
+					</table>
+				</div> 
+			</div>
+			<div class="row mb-4"> 
+				<div class="col">
+					<label for="textarea1" class="form-label">Note <span class="th">อื่น ๆ</span> </label> 
+					<textarea class="form-control th" id="textarea1" required  ></textarea> 
+					<div class="invalid-feedback">
+						Please select a valid state.
+					</div>
+				</div> 
+			</div>
+			
+			<div class="row footer-save justify-content-between"> 
+				<div class="col text-start"> 
+					<span class="info"><span class="th">บันทึกล่าสุด</span>: dd/mm/yyyy 00:00, Username</span>
+				</div>
+				<div class="col text-end"> 
+					<button class="btn btn-default th" type="button"><img src="images/Print.svg" alt=""> พิมพ์เอกสาร</button>
+					<button class="btn btn-primary th" type="submit">บันทึก</button>
+				</div>
+			</div>
+
 		</form>
 
 
@@ -102,7 +232,7 @@
 	<script src="js/bootstrap-datepicker.min.js"></script>
 	<script src="js/bootstrap-datepicker.th.min.js"></script>
 	<script> 
-		
+	
                 
 		$('.date').datepicker({ 
 			language: 'th',
