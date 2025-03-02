@@ -725,6 +725,9 @@ transition: .33s all ease-out;
   .tablem tbody tr td:nth-child(1) a{ 
     font-size: 15px !important; 
   }
+  .navtab .nav-link {
+    font-size: 14px;
+  }
 }
 @media only screen and (min-width: 1025px) { /* PC */
   .pc-x{
