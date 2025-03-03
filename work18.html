@@ -75,21 +75,151 @@
 				<h4>SQRY2411-0400</h4>
 				<h5><img src="images/Accesstime.svg" alt=""> WORKING</h5>
 			</div>
-		</div>  
-
-		<div class="col">
-			<div class="row">
+		</div>   
+		<form class="form-group needs-validation" novalidate>
+			<div class="row justify-content-center">
+									
 				<div class="col-6">
-					<h2>DATA SHEET FOR AC.WINDING</h2>
+					<label for="id03" class="form-label th"><span class="th">Sales Quote</span> :</label>
+					<input type="text" class="form-control" id="id03"  required> 
+					<div class="invalid-feedback">
+						Error message informing me of a problem
+					</div>
+				</div>    
+				<div class="col-6 mb-3">
+					<label for="id03" class="form-label th"><span class="th">Dropdowns</span> :</label>
+					<select class="form-select" id="id04" required>
+						<option value="URGENT" selected="">Dropdowns</option>
+						<option value="NORMAL">Dropdowns</option>
+						<option value="URGENT">Dropdowns</option>
+					</select>
+					<div class="invalid-feedback">
+						Error message informing me of a problem
+					</div>
+				</div>  
+			</div>
+			
+			<div class="row justify-content-center">
+
+								
+				<div class="col">
+					<label for="textarea1" class="form-label">Description <span>(Optional)</span> </label> 
+					<textarea class="form-control th" id="textarea1" required  ></textarea> 
+					<div class="invalid-feedback">
+						Please select a valid state.
+					</div>
+				</div>     
+				<div class="row footer-save2 justify-content-between align-items-center"> 
+					<div class="col text-start"> 
+						<span class="info"><span class="th">บันทึกล่าสุด</span>: dd/mm/yyyy 00:00, Username</span>
+					</div>
+					<div class="col text-end">  
+						<button class="btn btn-primary th" type="submit">บันทึก</button>
+					</div>
+				</div> 
+			</div>    
+
+			
+			<div class="row mb-4"> 
+				<div class="col">
+					<label for="textarea1" class="form-label">Upload  <span>(Optional)</span> </label>  
+				 
+					<fieldset class="upload_dropZone text-center mb-3 p-4">
+						<legend class="visually-hidden">Image uploader</legend> 
+						<p class="small my-2">Drag & Drop file here</p>
+						<input id="upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png, image/svg+xml" />
+						<label class="btn btn-upload mb-3" for="upload_image_background"><img src="images/upload.png" alt=""> Upload Flie</label>
+						<div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0"></div>
+					</fieldset> 
+					<label for="textarea1" class="form-label"> <span>Only .jpg, jpeg, .png files are supported. The image file size should not be larger than 10 MB.</span> </label>  
+					 
+				</div> 
+			</div>
+			 
+			<div class="row mb-4"> 
+				<div class="col">
+					<table class="table table-data"> 
+						<tbody> 
+							<tr>
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 10%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+						</tbody>
+					</table>
+				</div> 
+			</div>
+			<div class="row mb-4"> 
+				<div class="col">
+					<label for="textarea1" class="form-label">Note <span class="th">อื่น ๆ</span> </label> 
+					<textarea class="form-control th" id="textarea1" required  ></textarea> 
+					<div class="invalid-feedback">
+						Please select a valid state.
+					</div>
+				</div> 
+			</div>
+			
+			<div class="row footer-save justify-content-between"> 
+				<div class="col text-start"> 
+					<span class="info"><span class="th">บันทึกล่าสุด</span>: dd/mm/yyyy 00:00, Username</span>
 				</div>
-				<div class="col-6 text-end">
-					<p class="pgn"><strong>*</strong> Indicates a required field</p>
+				<div class="col text-end"> 
+					<button class="btn btn-default th" type="button"><img src="images/Print.svg" alt=""> พิมพ์เอกสาร</button>
+					<button class="btn btn-primary th" type="submit">บันทึก</button>
 				</div>
 			</div>
-		</div>
 
-		<form class="form-group needs-validation" novalidate>
-			 
 		</form>
 
 
@@ -102,7 +232,7 @@
 	<script src="js/bootstrap-datepicker.min.js"></script>
 	<script src="js/bootstrap-datepicker.th.min.js"></script>
 	<script> 
-		
+	
                 
 		$('.date').datepicker({ 
 			language: 'th',

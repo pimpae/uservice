@@ -75,21 +75,111 @@
 				<h4>SQRY2411-0400</h4>
 				<h5><img src="images/Accesstime.svg" alt=""> WORKING</h5>
 			</div>
-		</div>  
-
-		<div class="col">
-			<div class="row">
-				<div class="col-6">
-					<h2>CORE LOSS AND HOT SPOT TESTING</h2>
-				</div>
-				<div class="col-6 text-end">
-					<p class="pgn"><strong>*</strong> Indicates a required field</p>
-				</div>
-			</div>
-		</div>
-
+		</div>   
 		<form class="form-group needs-validation" novalidate>
 			 
+ 
+			 
+			<div class="row mb-4"> 
+
+				<div class="col-12"> 
+					<div class="img-box">
+						<div class="row">
+							<div class="col">
+								<img src="images/111.jpg"  alt="images">
+							</div> 
+						</div>
+					</div> 
+				</div>
+				<div class="table-responsive">
+					<div class="table-h"></div>
+					<table class="table table-data"> 
+						<thead>
+							<tr>
+								<th colspan="4" class="text-start bg-info"  >Position</th>  
+							</tr>
+						</thead>
+						<tbody> 
+							<tr>
+								<td style="width: 30%;">
+									<input type="text" class="form-control" value="Title Text">
+								</td> 
+								<td style="width: 10%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+								<td style="width: 30%;">
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control" value="Title Text">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control" value="Title Text">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+							<tr>
+								<td>
+									<input type="text" class="form-control" value="Title Text">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+								<td>
+									<input type="text" class="form-control">
+								</td> 
+							</tr> 
+						</tbody>
+					</table>
+				</div> 
+			</div>
+			<div class="row mb-4"> 
+				<div class="col">
+					<label for="textarea1" class="form-label">Note <span class="th">อื่น ๆ</span> </label> 
+					<textarea class="form-control th" id="textarea1" required  ></textarea> 
+					<div class="invalid-feedback">
+						Please select a valid state.
+					</div>
+				</div> 
+			</div>
+			
+			<div class="row footer-save justify-content-between"> 
+				<div class="col text-start"> 
+					<span class="info"><span class="th">บันทึกล่าสุด</span>: dd/mm/yyyy 00:00, Username</span>
+				</div>
+				<div class="col text-end"> 
+					<button class="btn btn-default th" type="button"><img src="images/Print.svg" alt=""> พิมพ์เอกสาร</button>
+					<button class="btn btn-primary th" type="submit">บันทึก</button>
+				</div>
+			</div>
+
 		</form>
 
 
@@ -102,7 +192,11 @@
 	<script src="js/bootstrap-datepicker.min.js"></script>
 	<script src="js/bootstrap-datepicker.th.min.js"></script>
 	<script> 
+	
 		
+		$(".table-h").click(function(){
+			$(this).toggleClass("hide");
+		}); 
                 
 		$('.date').datepicker({ 
 			language: 'th',
