@@ -25,7 +25,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.box_style_1 a.btn_1::after:nth-child(2){ 
+.box_style_1 a.btn_1:nth-child(2)::after{ 
   background-image: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/bangkok-architecture-1-1098494.png?f=webp&w=256);
   background-position: center !important;
   background-size: auto 35px !important;
