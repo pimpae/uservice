@@ -42,6 +42,10 @@
 .box_style_1 a.btn_1:nth-child(3)::after{ 
   background-image: url(https://cdn.iconscout.com/icon/premium/png-512-thumb/travel-5690645-4764553.png?f=webp&w=256); 
 }
+.box_style_1 a.btn_1:nth-child(4)::after{ 
+  background-image: url(https://cdn.iconscout.com/icon/premium/png-512-thumb/decoration-1709861-1452447.png?f=webp&w=256); 
+}
+
 
 
 
