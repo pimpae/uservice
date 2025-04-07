@@ -5,6 +5,7 @@
   align-items: center;
   align-content: center;
   justify-content: start;
+  position: relative;
 }
 .box_style_1 h4{ 
   width: 100%;
@@ -16,12 +17,22 @@
   min-height: 100px;
   align-items: center;
   margin: 6px;
+  position: relative;
 }
 .box_style_1 a.btn_1 img{ 
   height: 35px;
   width: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.box_style_1 a.btn_1:nth-child(2){ 
+  background-image: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/bangkok-architecture-1-1098494.png?f=webp&w=256);
+  background-position: center !important;
+  background-size: auto 35px !important;
+  height: 35px;
+  width: auto;
+  position: absolute;
+  margin-top: 30px;
 }
 
 
